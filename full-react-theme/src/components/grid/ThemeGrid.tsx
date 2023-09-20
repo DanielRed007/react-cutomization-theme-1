@@ -4,7 +4,6 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { useTheme } from '@mui/material/styles';
 import { CustomBtn } from '../custom-btn/CustomBtn';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -17,22 +16,26 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export const ThemeGrid = () => {
   return (
-    <Container style={{marginTop: '3.5rem'}} maxWidth="lg">
+    <Container style={{marginTop: '3.5rem', backgroundColor: '#303030'}} maxWidth="lg">
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
 
           <Grid item xs={4}>
             <Item>
-                <CustomBtn />
+              <CustomBtn />
             </Item>
           </Grid>
 
           <Grid item xs={4}>
-            <Item>xs=4</Item>
+            <Item>
+              
+            </Item>
           </Grid>
 
           <Grid item xs={4}>
-            <Item>xs=4</Item>
+          <Item>
+              
+            </Item>
           </Grid>
 
           <Grid item xs={4}>

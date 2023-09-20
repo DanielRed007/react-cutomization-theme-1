@@ -21,9 +21,13 @@ const theme = createTheme({
     tertiary: {
       main: '#FF4081'
     },
+    background: {
+      default: "#303030"
+    }
   },
   typography: {
-    fontFamily: 'Roboto, Arial, sans-serif',
+    fontFamily: 'Lato, sans-serif',
+    fontWeightBold: 700
   },
   shape: {
     borderRadius: 0,
