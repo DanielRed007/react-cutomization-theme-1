@@ -2,14 +2,48 @@
 import React from 'react';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+
+const TextButtonsProps = [
+    {
+        variant: "text",
+        fontWeight: "bold"
+    }
+];
+
+const buttonSet = ["primary", "secondary", "success"]
 
 export const CustomBtn = () => {
     return (
         <div>
-            <Stack spacing={2} direction="row">
-                <Button className="btn-container" variant="text">Text</Button>
-                <Button className="btn-container" variant="contained">Contained</Button>
-                <Button className="btn-container" variant="outlined">Outlined</Button>
+            <Stack spacing={2} direction="column">
+                <Button className="btn-container" variant="text" color="primary">
+                    <Typography variant="body1" fontWeight="bold">This is bold text.</Typography>
+                </Button>
+                <Button className="btn-container" variant="text" color="secondary">
+                    <Typography variant="body1" fontWeight="bold">This is bold text.</Typography>
+                </Button>
+                <Button className="btn-container" variant="text" color="success" >
+                    <Typography variant="body1" fontWeight="bold">This is bold text.</Typography>
+                </Button>
+                <Button className="btn-container" variant="contained" color="primary">
+                    <Typography variant="body1" fontWeight="bold">This is bold contained.</Typography>
+                </Button>
+                <Button className="btn-container" variant="contained" color="secondary">
+                    <Typography variant="body1" fontWeight="bold">This is bold contained.</Typography>
+                </Button>
+                <Button className="btn-container" variant="contained" color="success" >
+                    <Typography variant="body1" fontWeight="bold">This is bold contained.</Typography>
+                </Button>
+                <Button className="btn-container" variant="outlined" color="primary">
+                    <Typography variant="body1" fontWeight="bold">This is bold outlined.</Typography>
+                </Button>
+                <Button className="btn-container" variant="outlined" color="secondary">
+                    <Typography variant="body1" fontWeight="bold">This is bold outlined.</Typography>
+                </Button>
+                <Button className="btn-container" variant="outlined" color="success" >
+                    <Typography variant="body1" fontWeight="bold">This is bold outlined.</Typography>
+                </Button>
             </Stack>
         </div>
     )

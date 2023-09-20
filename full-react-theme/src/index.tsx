@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import CssBaseline from '@mui/material/CssBaseline';
 import theme from './theme';
 import { ThemeProvider } from '@mui/material/styles';
 import reportWebVitals from './reportWebVitals';
@@ -15,6 +16,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
+    {/* < CssBaseline/> */}
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
