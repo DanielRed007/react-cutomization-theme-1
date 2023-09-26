@@ -1,28 +1,20 @@
 // src/theme.js
 import { createTheme } from '@mui/material/styles';
 
-declare module '@mui/material/styles' {
-  interface PaletteOptions {
-    tertiary?: {
-      main: string;
-    };
-  }
-}
-
 const theme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: '#1976D2'
+      main: '#0161E1'
     },
     secondary: {
-      main: '#FF4081'
-    },
-    tertiary: {
-      main: '#FF4081'
+      main: '#CC00CC'
     },
     background: {
       default: "#303030"
+    },
+    success: {
+      main: "#C1D62D"
     }
   },
   typography: {
