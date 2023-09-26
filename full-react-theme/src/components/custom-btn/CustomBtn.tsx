@@ -6,8 +6,58 @@ import Typography from '@mui/material/Typography';
 
 const TextButtonsProps = [
     {
+        btnClass: "btn-container",
         variant: "text",
-        fontWeight: "bold"
+        color: "primary",
+        customText: "This is bold text."
+    },
+    {
+        btnClass: "btn-container",
+        variant: "text",
+        color: "secondary",
+        customText: "This is bold text."
+    },
+    {
+        btnClass: "btn-container",
+        variant: "text",
+        color: "success",
+        customText: "This is bold text."
+    },
+    {
+        btnClass: "btn-container",
+        variant: "contained",
+        color: "primary",
+        customText: "btn-container"
+    },
+    {
+        btnClass: "btn-container",
+        variant: "contained",
+        color: "secondary",
+        customText: "btn-container"
+    },
+    {
+        btnClass: "btn-container",
+        variant: "contained",
+        color: "success",
+        customText: "btn-container"
+    },
+    {
+        btnClass: "btn-container",
+        variant: "text",
+        color: "primary",
+        customText: "btn-container"
+    },
+    {
+        btnClass: "btn-container",
+        variant: "text",
+        color: "secondary",
+        customText: "btn-container"
+    },
+    {
+        btnClass: "btn-container",
+        variant: "text",
+        color: "success",
+        customText: "btn-container"
     }
 ];
 

@@ -33,7 +33,7 @@ export const ThemeGrid = () => {
           </Grid>
 
           <Grid item xs={4}>
-          <Item>
+            <Item>
               
             </Item>
           </Grid>
