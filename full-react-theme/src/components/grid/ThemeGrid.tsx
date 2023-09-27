@@ -5,6 +5,8 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { CustomBtn } from '../custom-btn/CustomBtn';
+import { ThemeCheckbox } from '../shared/ThemeButton/ThemeCheckbox';
+import { CustomCheckbox } from '../custom-btn/CustomCheckbox';
 
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -28,7 +30,7 @@ export const ThemeGrid = () => {
 
           <Grid item xs={4}>
             <Item>
-              
+              <CustomCheckbox />
             </Item>
           </Grid>
 
